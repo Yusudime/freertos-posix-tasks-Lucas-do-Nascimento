@@ -37,6 +37,12 @@ void Task2(void *pvParameters) {
     }
 }
 
+void Task3(int x, int y,){
+    printf(x)
+    printf(y)
+    x + y = z
+    printf(z)
+}
 
 int main(void) {
     // Initialize the FreeRTOS kernel
