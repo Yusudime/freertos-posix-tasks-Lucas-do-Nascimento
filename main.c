@@ -37,10 +37,16 @@ void Task2(void *pvParameters) {
     }
 }
 
-void Task3(int x, int y,){
+void Task3(int x, int y,int z){
     printf(x)
     printf(y)
     x + y = z
+    printf(z)
+}
+void Task4(int x, int y, int z){
+    printf(x)
+    printf(y)
+    x**y = z
     printf(z)
 }
 
